@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LK Portfolio</title>
+    
+    <link rel="icon" type="image/png" href="../images/portfoliologo.png">
+    <!-- Bootstrap -->
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+   
+    <body>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-1 col-md-1 col-lg-1">
+            <nav class="navbar navbar-inverse navbar-fixed-side">
+              <!-- normal collapsible navbar markup -->
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand" href="../../index.html"><img alt="Logo" src="../images/portfoliologo.png"></a>
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  
+                  <li data-toggle="homeBTN" title="home"><a href="../../index.html"><span class="glyphicon glyphicon-home"><span class="sr-only">(current)</span></span></a></li>
+                  
+                  <li data-toggle="skillsBTN" title="skills"><a href="skills.html"><span class="glyphicon glyphicon-stats"></span></a></li>
+                  <li data-toggle="projectsBTN" class="active" title="projects"><a href="projects.html"><span class="glyphicon glyphicon-tasks"></span></a></li> 
+                  <!--<li data-toggle="contactBTN" title="contact"><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span></a></li> -->
+                  <li class="gitBTN" title="contact"><a href="https://github.com/likane" target="_blank"><img alt="Git" src="../images/gh.svg"></a></li> 
+                  <li class="linkedBTN" title="contact"><a href="https://www.linkedin.com/in/louis-kane-041165118/" target="_blank"><img alt="Git" src="../images/linkedin.png" ></a></li> 
+
+                </ul>     
+                  
+              </div><!-- /.navbar-collapse -->
+
+
+            </nav>
+          </div>
+        
+        <div class="col-sm-11 col-md-11 col-lg-11">
+            <h1>Projects</h1>
+              
+                <div id="redcontainer">
+                 
+                  <div class="projectlist">
+                    
+                    <h1>
+                      <a href="https://github.com/likane/solarsystem" target="_blank" class="solarProjectLink">Solarsystem</a><br>
+                      <a href="https://github.com/likane/Forex" target="_blank" class="forexProjectLink">ForEx</a><br>
+                      <a href="https://github.com/likane/caesar_cipher" target="_blank" class="caesarProjectLink">Caesar Cypher</a><br>
+                      <a href="https://github.com/likane/petFinder" target="_blank" class="spotProjectLink">SpotFinder</a><br>
+                      <a href="https://github.com/likane/guest-list" target="_blank" class="guestProjectLink">Guest List</a><br>
+
+                    </h1>
+                  </div>   
+
+                  <div class="hoverdescription">
+                    <h3 class="solardesc">Solar System<br> A single page application showing the orbits of Mercury, Venus, Earth and the Earth's moon rotating around the sun. Technology used is HTML5 Canvas, css and javascript.</h3>
+                    <h3 class="forexdesc">Forex<br> A single page application using an API to get currency exchange data and display foreign currency values relative to the US Dollar. The next step will be to get a working currency calculator.</h3>
+                    <h3 class="caesardesc">Caesar Cypher<br> a command line node application prompting a user to provide a string and key position. The initial string is then encrypted based on the key position chosen. Caesar Cypher is one of the oldest encryption techniques developed. </h3>
+                    <h3 class="spotdesc">Spot Finder<br> A RESTful, full stack application using Sequelize and Bootstrap. Spot Finder is a one stop site to try to reconnect pet owners with their pets. One of four developers on the team.</h3>
+                    <h3 class="guestdesc">Guest List<br> Currently in development, Guest List allows venues to modernize and automize the guest list experience for attendees and box office personnel. Using React.js/React-router and Materialize for the front end and Mongoose ORM for the back end, this application allows users to sign in and interact intuitively and efficiently.</h3>
+
+                  </div> 
+  
+                </div>
+          <!-- your page content -->
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/portfolio.js"></script>
+    <script src="../js/projects.js"></script>
+  </body>
+</html>
