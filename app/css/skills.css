@@ -1,37 +1,37 @@
 @-webkit-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
+	0% { background-color: #b71c1c; }
+25% { background-color: #d50000 ; }
+50% { background-color: #c62828; }
+75% { background-color: #d32f2f; }
+100% { background-color: #dd2c00; }
 }
 @-moz-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
+	0% { background-color: #b71c1c; }
+25% { background-color: #d50000 ; }
+50% { background-color: #c62828; }
+75% { background-color: #d32f2f; }
+100% { background-color: #dd2c00; }
 }
 @-ms-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
+	0% { background-color: #b71c1c; }
+25% { background-color: #d50000 ; }
+50% { background-color: #c62828; }
+75% { background-color: #d32f2f; }
+100% { background-color: #dd2c00; }
 }
 @-o-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
+	0% { background-color: #b71c1c; }
+25% { background-color: #d50000 ; }
+50% { background-color: #c62828; }
+75% { background-color: #d32f2f; }
+100% { background-color: #dd2c00; }
 }
 @keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
+	0% { background-color: #b71c1c; }
+25% { background-color: #d50000 ; }
+50% { background-color: #c62828; }
+75% { background-color: #d32f2f; }
+100% { background-color: #dd2c00; }
 }
 
 
