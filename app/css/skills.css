@@ -1,3 +1,42 @@
+@-webkit-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-moz-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-ms-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-o-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+
+
+
+
 body {
 	background-color:#252627;
     background-image: linear-gradient(grey 2px, transparent 2px),
@@ -49,13 +88,17 @@ canvas {
 
 #skilldesc {
 	height: 100%;
-	background-color: #a50101;
+	
 	opacity: .8;
 	margin-top: 5%;
 	padding-top: 5%;
 	z-index: 1;
 	display: inline;
-	
+
+	animation-name: color_change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 @media(min-width: 200px) and (max-width: 400px){

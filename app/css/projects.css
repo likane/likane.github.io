@@ -1,3 +1,42 @@
+@-webkit-keyframes color_change {
+	0% { background-color: #311b92; }
+25% { background-color: #1a237e; }
+50% { background-color: #0d47a1; }
+75% { background-color: #304ffe; }
+100% { background-color: #2962ff; }
+}
+@-moz-keyframes color_change {
+	0% { background-color: #311b92; }
+25% { background-color: #1a237e; }
+50% { background-color: #0d47a1; }
+75% { background-color: #304ffe; }
+100% { background-color: #2962ff; }
+}
+@-ms-keyframes color_change {
+	0% { background-color: #311b92; }
+25% { background-color: #1a237e; }
+50% { background-color: #0d47a1; }
+75% { background-color: #304ffe; }
+100% { background-color: #2962ff; }
+}
+@-o-keyframes color_change {
+	0% { background-color: #311b92; }
+25% { background-color: #1a237e; }
+50% { background-color: #0d47a1; }
+75% { background-color: #304ffe; }
+100% { background-color: #2962ff; }
+}
+@keyframes color_change {
+	0% { background-color: #311b92; }
+25% { background-color: #1a237e; }
+50% { background-color: #0d47a1; }
+75% { background-color: #304ffe; }
+100% { background-color: #2962ff; }
+}
+
+
+
+
 body {
 	background-color:#252627;
     background-image: linear-gradient(grey 2px, transparent 2px),
@@ -34,9 +73,14 @@ a {
 #redcontainer {
 	width: 100%;
 	height: 700px;
-	background-color: #a50101;
+	
 	opacity: .8;
 	z-index: 0;
+
+	animation-name: color_change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 	
 }
 
