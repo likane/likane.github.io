@@ -1,5 +1,47 @@
+@-webkit-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-moz-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-ms-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@-o-keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+@keyframes color_change {
+	0% { background-color: #252627; }
+25% { background-color: #6200ea; }
+50% { background-color: #2962ff; }
+75% { background-color: #dd2c00; }
+100% { background-color: #00c853; }
+}
+
+
+
+
 body {
-	background-color: #252627;
+	animation-name: color_change;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 li:hover {
@@ -14,7 +56,7 @@ li:hover:after {
 
 h1, h2, h3, h4, p {
 	color: white;
-	text-align: center;
+	vertical-align: middle;
 }
 
 
@@ -31,8 +73,7 @@ img {
 }
 
 canvas {
-	padding-left: 475px;
-	padding-top: 10%;
+	vertical-align: middle;
 	
 }
 
