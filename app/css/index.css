@@ -1,49 +1,15 @@
-@-webkit-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
-}
-@-moz-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
-}
-@-ms-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
-}
-@-o-keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
-}
-@keyframes color_change {
-	0% { background-color: #252627; }
-25% { background-color: #6200ea; }
-50% { background-color: #2962ff; }
-75% { background-color: #dd2c00; }
-100% { background-color: #00c853; }
-}
-
-.glyphicon:hover {
-	color: blue;
-}
-
-
 body {
-	animation-name: color_change;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	background: linear-gradient(132deg, #ec5218, #1665c1);
+	background-size: 1000% 1000%;
+	animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+	0%{background-position: 15% 40%;}
+	25%{background-position: 40% 80%;}
+	50%{background-position: 100% 80%;}
+	75%{background-position: 80% 40%;}
+	100%{background-position: 40% 10%;}
 }
 
 li:hover {
