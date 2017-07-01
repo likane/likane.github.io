@@ -8,76 +8,173 @@
     <title>LK Portfolio</title>
     
     <link rel="icon" type="image/png" href="app/images/portfoliologo.png">
+
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="app/css/style.css" rel="stylesheet">
-    <link href="app/css/index.css" rel="stylesheet">
+    <!-- <link href="app/css/style.css" rel="stylesheet">
+    <link href="app/css/index.css" rel="stylesheet"> -->
+    <script src="https://use.fontawesome.com/bbd8eaf9e6.js"></script>
 
+    <link href="app/css/style.css" rel="stylesheet">
+    
+    
+    <!--connect with less compiler-->
+    <!-- <link rel="stylesheet/less" type="text/css" href="app/css/styles.less" />
+
+    <script src="less.js" type="text/javascript"></script>
+ -->
+
+    
 
 
   </head>
    
     <body>
       
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-1 col-md-1 col-lg-1">
-            <nav class="navbar navbar-inverse navbar-fixed-side">
-              <!-- normal collapsible navbar markup -->
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>-->
-              <a class="navbar-brand" href="index.html"><img alt="Logo" src="app/images/portfoliologo.png"></a>
-              </div>
-              
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  
-                  <li class="active" data-toggle="homeBTN" data-placement="right" title="home"><a href="index.html"><span class="glyphicon glyphicon-home"><span class="sr-only">(current)</span></span></a></li>
-                  
-                  <li data-toggle="skillsBTN" title="skills"><a href="app/public/skills.html"><span class="glyphicon glyphicon-stats"></span></a></li>
-                  <li data-toggle="projectsBTN" title="projects"><a href="app/public/projects.html"><span class="glyphicon glyphicon-tasks"></span></a></li> 
-                 <!-- <li data-toggle="contactBTN" title="contact"><a href="app/public/contact.html"><span class="glyphicon glyphicon-envelope"></span></a></li>--> 
-                  <li class="socialBTN" title="contact"><a href="https://github.com/likane" target="_blank"><img alt="Git" src="app/images/gh.svg" ></a></li> 
-                  <li class="socialBTN" title="contact"><a href="https://www.linkedin.com/in/louis-kane-041165118/" target="_blank"><img alt="Git" src="app/images/linkedin.png"></a></li> 
-
-                </ul>     
-                  
-              </div><!-- /.navbar-collapse -->
-
-
-            </nav>
-          </div>
-        
-        <div class="col-sm-11 col-md-11 col-lg-11">
-          <!-- your page content -->
-          <!--<div class="fullScreen" id="fullScreen">
-            <canvas id="canvas2d"></canvas>-->
-            <canvas id="canvas" width="250" height="250"></canvas>
-            <h1>Louis Kane</h1>
-            <h4>Full-Stack Web Developer | Wordpress | Photoshop</h4>
-            <p>lkane02@yahoo.com</p>
-
+          <div class="col-sm-12 col-md-12 col-lg-12  innerInfo">
+  
             
 
               
+                
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 nameTitle">
+                  <p aria-label="CodePen" class="nameTitle">
+                      <span data-text="L">L</span>
+                      <span data-text="O">O</span>
+                      <span data-text="U">U</span>
+                      <span data-text="I">I</span>
+                      <span data-text="S">S</span>
+                      <span data-text=""></span>
+                      <span data-text="K">K</span>
+                      <span data-text="A">A</span>
+                      <span data-text="N">N</span>
+                      <span data-text="E">E</span>
+                  </p>
+                </div>
+              </div>
+
+             <!--  <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 iconTitle">
+                    <p><i class="fa fa-code-fork" aria-hidden="true"></i></p>
+                    <p><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i></p>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 socialTitle">
+                    <a href="https://github.com/likane" target="_blank"><i class="fa fa-github"  aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/louis-kane-041165118" target="_blank"><i class="fa fa-linkedin"  aria-hidden="true"></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 arrowDown">
+                    <p><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+                    
+                </div>
+            </div>
+
+            
+            <div class="row" id="skillsDiv">
+    
+              
+                <div class="row techList">
+                  <div class="title col-sm-3 col-md-3 col-lg-3">
+                    <ul>
+                      <li>MySQL</li>
+                      <li>MSSQL</li>
+                      <li>MongoDB</li>
+                      <li>Sequelize</li>
+                      <li>Mongoose</li>
+                      
+                    </ul>
+                    
+                  </div>
+                  <div class="title col-sm-3 col-md-3 col-lg-3">
+                    <ul>
+                      <li>HTML 5</li>
+                      <li>CSS 3</li>
+                      <li>HTML 5 Canvas</li>
+                      <li>LESS</li>
+                      
+                      
+                    </ul>
+                    
+                  </div>
+                  <div class="title col-sm-3 col-md-3 col-lg-3 ">
+                    <ul>
+                      <li>Node.js</li>
+                      <li>JavaScript</li>
+                      <li>JQuery</li>
+                      <li>Handlebars</li>
+                      <li>Bootstrap</li>
+                      
+
+                    </ul>
+                    
+                  </div>
+                  <div class="title col-sm-3 col-md-3 col-lg-3 ">
+                    <ul>
+                      
+                      <li>React.js</li>
+                      <li>Redux</li>
+                      <li>Wordpress</li>
+                      <li>Amend</li>
+                      <li>Materialize</li>
+
+                    </ul>
+                    
+                  </div>
+                    <!-- <div class="subtitle"> geek + smart + curious + nerd + ingenious + cunning = ME  -->
+                    <!-- </div> -->
+                </div>
+                   
           </div>
-          
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 infoDiv">
+                    <h3>Full Stack Web Developer</h3>
+                    <p>Los Angeles, CA</p>
+                    <p>lkane02@yahoo.com</p>
+                    <p><i class="fa fa-rocket" aria-hidden="true"></i></p>
+                    
+                </div>
+            </div>  
+
+              
+            
+         
+          </div>
         </div>
+        
+
+       
+        <div class="row">
+    
+              <div class="col-sm-12 col-md-12 col-lg-12" id="contactDiv" >
+                <h1> contact</h1>
+     
+              </div>   
+        </div>
+          
       </div>
-    </div>
+      
+    
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
     <script src="js/bootstrap.min.js"></script>
-    <script src="app/js/index.js"></script>
-    <script src="app/js/portfolio.js"></script>
+     <script src="app/js/index.js"></script>
+    <!--f<script src="app/js/portfolio.js"></script> -->
+
+    
+
+    
+    </body>
   </body>
 </html>
