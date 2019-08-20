@@ -1,180 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>LK Portfolio</title>
-    
-    <link rel="icon" type="image/png" href="app/images/portfoliologo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="app/css/style.css" rel="stylesheet">
-    <link href="app/css/index.css" rel="stylesheet"> -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawesome -->
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <!--load all styles -->
+    <script defer src="fontawesome/js/all.js"></script>
+    <script defer src="fontawesome/js/brands.js"></script>
+    <script defer src="fontawesome/js/solid.js"></script>
+    <script defer src="fontawesome/js/fontawesome.js"></script>
+
     <script src="https://use.fontawesome.com/bbd8eaf9e6.js"></script>
 
-    <link href="app/css/style.css" rel="stylesheet">
-    
-    
-    <!--connect with less compiler-->
-    <!-- <link rel="stylesheet/less" type="text/css" href="app/css/styles.less" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="less.js" type="text/javascript"></script>
- -->
+    <!-- Custom CSS-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-    
-
-
+    <title>E Word</title>
   </head>
-   
-    <body>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12  innerInfo">
-  
-            
+  <body>
+      <div id="loadOverlay" ></div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="images/eword-logo.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
 
-              
-                
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 nameTitle">
-                  <p aria-label="CodePen" class="nameTitle">
-                      <span data-text="L">L</span>
-                      <span data-text="O">O</span>
-                      <span data-text="U">U</span>
-                      <span data-text="I">I</span>
-                      <span data-text="S">S</span>
-                      <span data-text=""></span>
-                      <span data-text="K">K</span>
-                      <span data-text="A">A</span>
-                      <span data-text="N">N</span>
-                      <span data-text="E">E</span>
-                  </p>
-                </div>
-              </div>
-
-             <!--  <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 iconTitle">
-                    <p><i class="fa fa-code-fork" aria-hidden="true"></i></p>
-                    <p><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
-                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i></p>
-                </div>
-            </div> -->
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 socialTitle">
-                    <a href="https://github.com/likane" target="_blank"><i class="fa fa-github"  aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/louis-kane-041165118" target="_blank"><i class="fa fa-linkedin"  aria-hidden="true"></i></a>
-                    
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 arrowDown">
-                    <p><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
-                    
-                </div>
-            </div>
-
-            
-            <div class="row" id="skillsDiv">
-    
-              
-                <div class="row techList">
-                  <div class="title col-sm-3 col-md-3 col-lg-3">
-                    <ul>
-                      <li>MySQL</li>
-                      <li>MSSQL</li>
-                      <li>MongoDB</li>
-                      <li>Sequelize</li>
-                      <li>Mongoose</li>
-                      
-                    </ul>
-                    
-                  </div>
-                  <div class="title col-sm-3 col-md-3 col-lg-3">
-                    <ul>
-                      <li>HTML 5</li>
-                      <li>CSS 3</li>
-                      <li>HTML 5 Canvas</li>
-                      <li>LESS</li>
-                      
-                      
-                    </ul>
-                    
-                  </div>
-                  <div class="title col-sm-3 col-md-3 col-lg-3 ">
-                    <ul>
-                      <li>Node.js</li>
-                      <li>JavaScript</li>
-                      <li>JQuery</li>
-                      <li>Handlebars</li>
-                      <li>Bootstrap</li>
-                      
-
-                    </ul>
-                    
-                  </div>
-                  <div class="title col-sm-3 col-md-3 col-lg-3 ">
-                    <ul>
-                      
-                      <li>React.js</li>
-                      <li>Redux</li>
-                      <li>Wordpress</li>
-                      <li>Amend</li>
-                      <li>Materialize</li>
-
-                    </ul>
-                    
-                  </div>
-                    <!-- <div class="subtitle"> geek + smart + curious + nerd + ingenious + cunning = ME  -->
-                    <!-- </div> -->
-                </div>
-                   
-          </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 infoDiv">
-                    <h3>Full Stack Web Developer</h3>
-                    <p>Los Angeles, CA</p>
-                    <p>lkane02@yahoo.com</p>
-                    <p><i class="fa fa-rocket" aria-hidden="true"></i></p>
-                    
-                </div>
-            </div>  
-
-              
-            
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li> -->
          
-          </div>
-        </div>
-        
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="services.html"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">On Site Support</a>
+              <a class="dropdown-item" href="#">Custom Audio & Video</a>
+              <a class="dropdown-item" href="#">PC / Mac / Server Assistance</a>
+              <a class="dropdown-item" href="#">Wifi Implementation</a>
+              <a class="dropdown-item" href="#"
+                >Cable Management & Maintenance</a
+              >
+              <a class="dropdown-item" href="#">Mobile Suport</a>
+              <a class="dropdown-item" href="#">Residential Automation</a>
+              <a class="dropdown-item" href="#">Security Cameras</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"
+                >Network Best Practice & Security</a
+              >
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+        </ul>
 
-       
-        <div class="row">
-    
-              <div class="col-sm-12 col-md-12 col-lg-12" id="contactDiv" >
-                <h1> contact</h1>
-     
-              </div>   
-        </div>
-          
+        <ul class="socialMediaIcons">
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-linkedin-in"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
       </div>
+    </nav>
+    <section>
+      <!-- Initial banner -->
+      <div class="jumbotron jumbotron-fluid initialBanner ">
+        <div class="container">
+          <div clas="row">
+              <h1 class="display-4">Technology Concierge Service</h1>
+              <p class="lead">
+                Audio & Video | Network | IT
+              </p>
+          </div>
+
+          <div class="row headerButtons">
+              <div class="col-6">
+                  <button type="button" class="btn btn-outline-light spashInfoButtons">Services</button>
+              </div>
+              <div class="col-6">
+                  <button type="button" class="btn btn-outline-warning splashPhoneButtons">(310) 265-3172</button>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- company slogan -->
+      <div class="slogan">
+        <p class="sloganSaying">A technology concierge service for consumers and small businesses</p>
+      </div>
+
+      <div class="row businessCards">
+        <div class="col-4">
+          <div class="card customerReviewCard" >
+            <div class="card-body">
+               <h5 class="card-title">Customer Reviews</h5> 
+               <!-- <img src="http://lorempixel.com/350/263/" alt=""> 
+                            <div class="ovrly"></div>
+                            <div class="buttons">
+                                <a href="#" class="fa fa-link"></a>
+                                <a href="#" class="fa fa-search"></a>
+                        </div> -->
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> 
+            </div>
+          </div></div>
+        <div class="col-4">
+          <div class="card serviceCard" >
+            <div class="card-body">
+              <h5 class="card-title">Get Started</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div></div>
+        <div class="col-4">
+          <div class="card serviceCard" >
+            <div class="card-body">
+              <h5 class="card-title">Info</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div></div>
+
+      </div>
+      <!-- company logo / info: location / testimony / established -->
+      <div></div>
+      <!-- corporate partners-->
+      <div class="row partners">
+      <div class="col-12 partnerTitle"><h4>Partner Brands</h4></div>
+      <div class="col-12">
+        <ul class="partnerList">
+          <li><i class="fab fa-apple"></i></li>
+          <li><i class="fab fa-amazon"></i></li>
+          <li><i class="fab fa-accusoft"></i></li>
+          <li><i class="fab fa-bluetooth"></i></li>
+          <li><i class="fab fa-aws"></i></li>
+          <li><i class="fab fa-cpanel"></i></li>
+          <li><i class="fab fa-chromecast"></i></li>
+        </ul></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <ul class="nav footerNav justify-content-center bottom">
+        
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">(310) 265-3172</a>
+      </li> -->
       
-    
+      <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="(310) 265-3172"><i class="fas fa-phone"></i></a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="about.html">Info</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fas fa-copyright"></i> EWORD</a>
+      </li>
+      <!-- <li class="nav-item"><i class="fab fa-twitter"></i></li>
+      <li class="nav-item"><i class="fab fa-linkedin-in"></i></li>
+      <li class="nav-item"><i class="fab fa-instagram"></i></li> -->
+    </ul>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+        })
 
+        $(document).ready(function() {
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script src="js/bootstrap.min.js"></script>
-     <script src="app/js/index.js"></script>
-    <!--f<script src="app/js/portfolio.js"></script> -->
+            $(window).load(function() {
 
-    
+          $('#loadOverlay').fadeOut('slow');
 
-    
-    </body>
+        })
+
+      })
+    </script>
   </body>
 </html>

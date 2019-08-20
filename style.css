@@ -1,0 +1,277 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  height: 100%;
+}
+
+.nav-item {
+  min-height: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-link:hover {
+  color: #2d6c97;
+}
+
+.dropdown-item:hover {
+  color: #2d6c97;
+}
+
+.navbar {
+  background-color: #ef6c00 !important;
+  /* opacity: 0; */
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar .socialMediaIcons li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar .socialMediaIcons li:hover {
+  color: #2d6c97;
+}
+
+/* .socialMediaIcons .fab {
+  color: #fff;
+} */
+
+.fa-bars:hover {
+  color: #2d6c97;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+.jumbotron {
+  /* background-color: #ef6c00 !important; */
+  background: #ef6c00 !important;
+  background: linear-gradient(
+    to right bottom,
+    #ef6c00 58%,
+    #fff 42%
+  ) !important;
+  min-height: 500px;
+}
+
+.jumbotron h1,
+p {
+  color: #fff;
+}
+
+.headerButtons {
+  margin-top: 10rem;
+}
+
+.headerButtons .btn {
+  width: 50%;
+  height: 3rem;
+}
+
+.splashPhoneButtons {
+  float: right;
+  color: #ef6c00;
+  border-color: #ef6c00;
+}
+
+.splashPhoneButtons:hover {
+  background-color: #ef6c00;
+  color: #fff;
+}
+
+.spashInfoButtons:hover {
+  color: #2d6c97;
+}
+
+.slogan {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sloganSaying {
+  font-size: 3.5rem;
+  color: #78909c;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.businessCards {
+  background: #fff;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.card {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  /* background: #2d6c97; */
+  min-height: 21rem;
+}
+
+.customerReviewCard {
+  background-image: url("https://placem.at/people");
+  /* background-image: url("https://fillmurray.com/200/300"); */
+}
+
+.serviceCard {
+  background-image: url("https://placem.at/things");
+  /* background-image: url("https://fillmurray.com"); */
+}
+/* https://fillmurray.com/ */
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background: #fff; */
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("https://placem.at/things");
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* height: 100%; */
+  /* left: 0; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* width: 100%; */
+  /* opacity: 0.5; */
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-title {
+  color: #fff;
+}
+
+/* card overlay effects*/
+/* .btn07 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn07 img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.btn07 .ovrly {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn07 .buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn07 .buttons .fa {
+  background: rgb(256, 256, 256);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  -o-transition: -o-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  color: transparent;
+}
+.btn07:hover .buttons .fa {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  color: rgba(50, 50, 50, 0.9);
+}
+.btn07:hover .ovrly {
+  opacity: 1;
+}
+.btn08 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+} */
+
+.partners {
+  text-align: center;
+  background: #fff;
+}
+
+.partnerTitle {
+  text-align: center;
+  color: #2d6c97;
+}
+
+.partnerList {
+  list-style: none;
+}
+
+.partnerList li {
+  display: inline;
+  /* float: left; */
+}
+
+.partnerList li {
+  color: #78909c;
+  font-size: 5rem;
+  margin-right: 2.5rem;
+}
+
+.footerNav {
+  background: #ef6c00;
+}
