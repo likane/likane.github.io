@@ -10,6 +10,10 @@ body {
   height: 100%;
 }
 
+.navbar-nav {
+  margin-top: 1rem;
+}
+
 .nav-item {
   min-height: 3rem;
 }
@@ -36,6 +40,11 @@ body {
 .fa-bars {
   color: #fff;
   font-size: 2rem;
+}
+
+.navbar .socialMediaIcons {
+  /* margin-top: 0.5rem; */
+  margin-bottom: 0rem !important;
 }
 
 .navbar .socialMediaIcons li {
@@ -116,8 +125,8 @@ p {
 
 .businessCards {
   background: #fff;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 .card {
   text-align: center;
@@ -150,102 +159,34 @@ p {
   /* top: 0; */
   /* width: 100%; */
   /* opacity: 0.5; */
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-title {
   color: #fff;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* .card h6 */
+.fa-comment,
+.fa-file-alt,
+.fa-sign-out-alt {
+  margin-top: 1.5rem;
+  color: #fff;
+  border-color: #fff;
+  /* width: 50%; */
+  font-size: 5rem;
 }
 
-/* card overlay effects*/
-/* .btn07 {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+.fa-comment:hover,
+.fa-file-alt:hover,
+.fa-sign-out-alt:hover {
+  color: #ef6c00;
+  border-color: #ef6c00;
 }
-.btn07 img {
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.btn07 .ovrly {
-  background: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.btn07 .buttons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.btn07 .buttons .fa {
-  background: rgb(256, 256, 256);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  display: inline-block;
-  line-height: 40px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  opacity: 0;
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transform: scale(1.5);
-  position: relative;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-  -o-transition: -o-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  color: transparent;
-}
-.btn07:hover .buttons .fa {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  color: rgba(50, 50, 50, 0.9);
-}
-.btn07:hover .ovrly {
-  opacity: 1;
-}
-.btn08 {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-} */
 
 .partners {
   text-align: center;
@@ -274,4 +215,66 @@ p {
 
 .footerNav {
   background: #ef6c00;
+}
+
+.titleSection {
+  color: #2d6c97;
+  font-weight: bold;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  /* float: left; */
+  /* display: block; */
+  /* width: 100%; */
+}
+
+/* About */
+.aboutQuote {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.aboutQuote h2 {
+  color: #78909c;
+  font-size: 3rem;
+}
+
+.aboutServices {
+  border-right: 10px solid #fff;
+}
+
+.aboutContact {
+  border-left: 10px solid #fff;
+}
+
+.aboutCards a {
+  color: #ef6c00 !important;
+  font-size: 4rem;
+}
+
+.aboutCards a:hover {
+  color: #2d6c97 !important;
+}
+
+.aboutCards {
+  text-align: center;
+  background: #78909c;
+  margin-bottom: 1rem;
+  min-height: 10rem;
+}
+
+.aboutCards h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.aboutBio {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.aboutBio h5 {
+  color: #2d6c97;
 }
