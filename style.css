@@ -8,10 +8,12 @@ p {
 body {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
-.navbar-nav {
-  margin-top: 1rem;
+section {
+  /* margin-top: 1rem; */
+  width: 100%;
 }
 
 .nav-item {
@@ -25,12 +27,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #2d6c97;
+  color: #2d6c97 !important;
 }
 
-.dropdown-item:hover {
+/* .dropdown-item:hover {
   color: #2d6c97;
-}
+} */
 
 .navbar {
   background-color: #ef6c00 !important;
@@ -56,7 +58,7 @@ body {
 }
 
 .navbar .socialMediaIcons li:hover {
-  color: #2d6c97;
+  color: #2d6c97 !important;
 }
 
 /* .socialMediaIcons .fab {
@@ -102,13 +104,21 @@ p {
   border-color: #ef6c00;
 }
 
+.splashPhoneButtons a {
+  color: #ef6c00 !important;
+}
+
+.splashPhoneButtons:hover > .indexPhoneBtn {
+  color: #fff !important;
+}
+
 .splashPhoneButtons:hover {
-  background-color: #ef6c00;
+  background-color: #ef6c00 !important;
   color: #fff;
 }
 
-.spashInfoButtons:hover {
-  color: #2d6c97;
+.spashInfoButtons:hover > .indexServicesBtn {
+  color: #2d6c97 !important;
 }
 
 .slogan {
@@ -149,16 +159,8 @@ p {
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background: #fff; */
   background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
     url("https://placem.at/things");
-  /* background: rgba(0, 0, 0, 0.5); */
-  /* height: 100%; */
-  /* left: 0; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* width: 100%; */
-  /* opacity: 0.5; */
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -170,14 +172,13 @@ p {
   margin-top: 3rem;
   font-size: 2rem;
 }
-/* .card h6 */
+
 .fa-comment,
 .fa-file-alt,
 .fa-sign-out-alt {
   margin-top: 1.5rem;
   color: #fff;
   border-color: #fff;
-  /* width: 50%; */
   font-size: 5rem;
 }
 
@@ -204,7 +205,6 @@ p {
 
 .partnerList li {
   display: inline;
-  /* float: left; */
 }
 
 .partnerList li {
@@ -222,12 +222,17 @@ p {
   font-weight: bold;
   margin-top: 7rem;
   margin-bottom: 1rem;
+  /* background-color: #eceff1; */
   /* float: left; */
   /* display: block; */
   /* width: 100%; */
 }
 
-/* About */
+section {
+  height: 100%;
+}
+
+/* ABOUT */
 .aboutQuote {
   text-align: center;
   margin-bottom: 1rem;
@@ -278,3 +283,332 @@ p {
 .aboutBio h5 {
   color: #2d6c97;
 }
+
+/* CONTACT */
+.contactForm .contactSide {
+  display: inline-block;
+}
+
+.contactForm .btn {
+  background-color: #2d6c97;
+  border-color: #2d6c97;
+}
+
+.contactForm .btn:hover {
+  background-color: #78909c;
+  border-color: #2d6c97;
+}
+
+.contactInfoCard {
+  background-color: #78909c;
+  /* background: repeating-linear-gradient(
+    45deg,
+    /* #455a64,
+    #455a64 15px, */ /* #fff,
+    #fff 15px,
+    #78909c 15px,
+    #78909c 30px
+  ); */
+  text-align: center;
+  height: 50%;
+  border: 10px solid #fff;
+  padding-top: 3rem;
+}
+
+.innerContactInfoCard {
+  background: #78909c;
+  /* width: 80%; */
+}
+
+.contactSocialCard {
+  background-color: #2d6c97;
+  /* background: repeating-linear-gradient(
+    45deg,
+    /* #1565c0,
+    #1565c0 20px, */
+  /*#fff,
+    #fff 15px,
+    #2d6c97 15px,
+    #2d6c97 30px
+  ); */
+  text-align: center;
+  height: 50%;
+  border: 10px solid #fff;
+  padding-top: 3rem;
+}
+
+.contactInfoCard h4,
+a {
+  color: #fff !important;
+}
+
+.contactInfoCard a:hover {
+  color: #ef6c00 !important;
+  text-shadow: 1px 1px 1px #90a4ae;
+}
+
+.contactSocialCard li {
+  color: #fff;
+  list-style: none;
+  display: inline;
+  font-size: 4rem;
+  padding-right: 1.5rem;
+}
+
+.contactSocialCard a:hover {
+  color: #ef6c00 !important;
+}
+
+/* SERVICES */
+
+.list-group-item {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.list-group-item-action:hover {
+  /* color: #495057; */
+  color: #2d6c97;
+}
+/* 
+.list-group-item:hover > a {
+  color: #ef6c00;
+} */
+
+@media screen and (max-width: 1207px) {
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 3.3rem;
+  }
+  .contactSocialCard li {
+    font-size: 3rem;
+  }
+
+  /* About */
+
+  .aboutPage {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* ipad pro 1024 */
+@media screen and (max-width: 1024px) {
+  /* Index  --> good*/
+  /* About --> good */
+  /* Services */
+  .list-group-item {
+    font-size: 1rem;
+  }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 3.3rem;
+  }
+  .contactSocialCard li {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 5rem;
+  }
+  .contactSocialCard li {
+    font-size: 1rem;
+  }
+
+  .contactInfoCard h4 {
+    font-size: 1rem;
+  }
+
+  .partners ul {
+    padding-inline-start: 0px !important;
+  }
+}
+/* ipad 768 */
+@media screen and (max-width: 768px) {
+  /*Nav*/
+  .socialMediaIcons {
+    padding-left: 0px;
+  }
+
+  /* Index */
+
+  .jumbotron .btn {
+    font-size: 1rem;
+    width: 60%;
+  }
+
+  .businessCards .card-title {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .businesCards h6 {
+    font-size: 0.8rem;
+  }
+
+  .customerReviewCard,
+  .serviceCard {
+    margin-bottom: 2rem;
+    max-height: 15rem;
+  }
+
+  .businesCards .card {
+    min-height: none !important;
+    width: 97%;
+  }
+  .sloganSaying {
+    font-size: 2.5rem;
+  }
+
+  /* About --> good */
+  .aboutQuote h2 {
+    font-size: 2rem;
+  }
+  /* Services */
+  .list-group-item {
+    font-size: 0.8rem;
+  }
+
+  .list-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 1.2rem;
+  }
+  .contactSocialCard li {
+    font-size: 1rem;
+  }
+
+  .contactInfoCard h4 {
+    font-size: 1rem;
+  }
+  .contactInfoCard {
+    padding-top: 0.2rem;
+  }
+
+  .contactPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  /* Index */
+  .jumbotron .btn {
+    font-size: 0.8rem;
+    width: 65%;
+  }
+}
+/* iphone x 375 */
+/* iphone plus 414 */
+@media screen and (max-width: 414px) {
+  /* Index */
+  .jumbotron .display-4 {
+    font-size: 3rem;
+  }
+
+  .jumbotron .lead {
+    font-size: 0.8rem;
+  }
+
+  .sloganSaying {
+    font-size: 1rem;
+  }
+
+  .jumbotron .btn {
+    font-size: 8px;
+  }
+
+  /* .businessCards .card-title {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  } */
+
+  .customerReviewCard,
+  .serviceCard {
+    margin-bottom: 2rem;
+    max-height: 15rem;
+  }
+
+  .businessCards h6 {
+    font-size: 2rem;
+  }
+
+  .businesCards .card {
+    min-height: 15rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .partnerList li {
+    font-size: 1.5rem;
+  }
+  /*Services*/
+  .list-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  /*About*/
+  .aboutQuote h2 {
+    font-size: 1.5rem;
+  }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 1.2rem;
+  }
+  .contactSocialCard li {
+    font-size: 2.5rem;
+  }
+
+  .contactInfoCard {
+    padding-top: 1rem;
+  }
+  .contactForm {
+    margin-bottom: 2rem;
+  }
+
+  .contactPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .aboutPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+  .servicesPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+/* iphone 375 */
+/* pixel 2 xl 411 */
+/* pixel 2  */
+/* galaxy s5 360 */
+@media screen and (max-width: 378px) {
+  /* Index */
+  .jumbotron .btn {
+    font-size: 5px;
+  }
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* 
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

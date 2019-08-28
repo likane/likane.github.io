@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      <!-- content="width=device-width, initial-scale=1, shrink-to-fit=no" -->
     />
 
     <!-- Bootstrap CSS -->
@@ -39,8 +39,7 @@
 
     <title>E Word</title>
   </head>
-  <body>
-      <div id="loadOverlay" ></div>
+  <body class="indexPage">
     <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#">
         <img src="images/eword-logo.png" alt="" />
@@ -67,11 +66,11 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
          
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="services.html"
@@ -98,7 +97,7 @@
               <a class="dropdown-item" href="#"
                 >Network Best Practice & Security</a
               >
-            </div>
+            </div> -->
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
@@ -109,9 +108,9 @@
         </ul>
 
         <ul class="socialMediaIcons">
-          <li><i class="fab fa-twitter"></i></li>
-          <li><i class="fab fa-linkedin-in"></i></li>
-          <li><i class="fab fa-instagram"></i></li>
+          <li><a href="https://twitter.com/EwordLLCLA" target="_blank"></a><i class="fab fa-twitter"></i></li>
+          <li><a href="https://www.linkedin.com/company/eword-llc?" target="_blank"></a><i class="fab fa-linkedin-in"></i></li>
+          <li><a href="https://www.instagram.com/ewordllc/" target="_blank"></a><i class="fab fa-instagram"></i></li>
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -132,10 +131,10 @@
 
           <div class="row headerButtons">
               <div class="col-6">
-                  <button type="button" class="btn btn-outline-light spashInfoButtons">Services</button>
+                  <button type="button" class="btn btn-outline-light spashInfoButtons" ><a href="services.html" class="indexServicesBtn">Services</a></button>
               </div>
               <div class="col-6">
-                  <button type="button" class="btn btn-outline-warning splashPhoneButtons">(310) 265-3172</button>
+                  <button type="button" class="btn btn-outline-warning splashPhoneButtons"><a href="tel:1-310-265-3172"  class="indexPhoneBtn">(310) 265-3172</a></button>
               </div>
           </div>
           
@@ -148,14 +147,14 @@
       </div>
 
       <div class="row businessCards">
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4">
           <div class="card customerReviewCard" >
             <div class="card-body">
                <h4 class="card-title">Customer Reviews</h4> 
                <h6><a href="reviews.html"><i class="far fa-comment"></i></a></h6>
             </div>
           </div></div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4">
           <div class="card serviceCard" >
             <div class="card-body">
               <h4 class="card-title">Get Started</h4>
@@ -166,7 +165,7 @@
               <a href="#" class="card-link">Another link</a> -->
             </div>
           </div></div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4">
           <div class="card serviceCard" >
             <div class="card-body">
               <h4 class="card-title">Info</h4>
@@ -205,7 +204,7 @@
       </li> -->
       
       <li class="nav-item">
-          <a class="nav-link" href="#" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="(310) 265-3172"><i class="fas fa-phone"></i></a>
+          <a class="nav-link"  href="tel:1-310-265-3172"><i class="fas fa-phone"></i></a>
         </li>
       <li class="nav-item">
           <a class="nav-link" href="about.html">Info</a>
