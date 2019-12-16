@@ -285,78 +285,45 @@ section {
 }
 
 /* CONTACT */
-.contactForm .contactSide {
-  display: inline-block;
-}
 
-.contactForm .btn {
-  background-color: #2d6c97;
-  border-color: #2d6c97;
-}
-
-.contactForm .btn:hover {
-  background-color: #78909c;
-  border-color: #2d6c97;
-}
-
-.contactInfoCard {
-  background-color: #78909c;
-  /* background: repeating-linear-gradient(
-    45deg,
-    /* #455a64,
-    #455a64 15px, */ /* #fff,
-    #fff 15px,
-    #78909c 15px,
-    #78909c 30px
-  ); */
+.contactCard {
   text-align: center;
-  height: 50%;
-  border: 10px solid #fff;
-  padding-top: 3rem;
-}
-
-.innerContactInfoCard {
   background: #78909c;
-  /* width: 80%; */
+  margin-bottom: 1rem;
+  min-height: 7rem;
+  border: 0.7rem #fff solid;
 }
-
-.contactSocialCard {
-  background-color: #2d6c97;
-  /* background: repeating-linear-gradient(
-    45deg,
-    /* #1565c0,
-    #1565c0 20px, */
-  /*#fff,
-    #fff 15px,
-    #2d6c97 15px,
-    #2d6c97 30px
-  ); */
-  text-align: center;
-  height: 50%;
-  border: 10px solid #fff;
-  padding-top: 3rem;
-}
-
-.contactInfoCard h4,
-a {
-  color: #fff !important;
-}
-
-.contactInfoCard a:hover {
-  color: #ef6c00 !important;
-  text-shadow: 1px 1px 1px #90a4ae;
-}
-
-.contactSocialCard li {
-  color: #fff;
+.contactCard h4 {
+  font-size: 1.6rem;
   list-style: none;
-  display: inline;
-  font-size: 4rem;
-  padding-right: 1.5rem;
+  color: #fff;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.contactSocialCard a:hover {
-  color: #ef6c00 !important;
+.contactCard a {
+  color: #fff;
+}
+
+.contactCard a:hover {
+  color: #db942b;
+}
+
+.contactPhoneNumber {
+  font-size: 1.5rem;
+}
+
+.contactPhoneNumber a:hover {
+  color: #db942b;
+}
+
+.socialMediaInfoIcons {
+  font-size: 3rem;
 }
 
 /* SERVICES */
@@ -378,13 +345,9 @@ a {
 
 @media screen and (max-width: 1207px) {
   /* Contact */
-  .contactSocialCard {
-    padding-top: 3.3rem;
+  .contactPhoneNumber {
+    font-size: 1rem;
   }
-  .contactSocialCard li {
-    font-size: 3rem;
-  }
-
   /* About */
 
   .aboutPage {
@@ -401,29 +364,20 @@ a {
     font-size: 1rem;
   }
   /* Contact */
-  .contactSocialCard {
-    padding-top: 3.3rem;
-  }
-  .contactSocialCard li {
-    font-size: 3rem;
-  }
 }
 
 @media screen and (max-width: 993px) {
   /* Contact */
-  .contactSocialCard {
-    padding-top: 5rem;
-  }
-  .contactSocialCard li {
-    font-size: 1rem;
+  .contactPhoneNumber {
+    font-size: 2rem;
   }
 
-  .contactInfoCard h4 {
-    font-size: 1rem;
+  .socialMediaInfoIcons {
+    font-size: 2rem;
   }
 
-  .partners ul {
-    padding-inline-start: 0px !important;
+  .contactRowBottom {
+    margin-bottom: 2rem;
   }
 }
 /* ipad 768 */
@@ -477,23 +431,8 @@ a {
   }
 
   /* Contact */
-  .contactSocialCard {
-    padding-top: 1.2rem;
-  }
-  .contactSocialCard li {
-    font-size: 1rem;
-  }
-
-  .contactInfoCard h4 {
-    font-size: 1rem;
-  }
-  .contactInfoCard {
-    padding-top: 0.2rem;
-  }
-
-  .contactPage section {
-    height: 100%;
-    margin-bottom: 8rem;
+  .contactRowBottom {
+    margin-bottom: 2rem;
   }
 }
 
@@ -552,25 +491,15 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
 
+  .contactRowBottom {
+    margin-bottom: 2rem;
+  }
+
   /*About*/
   .aboutQuote h2 {
     font-size: 1.5rem;
   }
   /* Contact */
-  .contactSocialCard {
-    padding-top: 1.2rem;
-  }
-  .contactSocialCard li {
-    font-size: 2.5rem;
-  }
-
-  .contactInfoCard {
-    padding-top: 1rem;
-  }
-  .contactForm {
-    margin-bottom: 2rem;
-  }
-
   .contactPage section {
     height: 100%;
     margin-bottom: 8rem;
