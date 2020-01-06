@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ section {
 .nav-link {
   color: #fff;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link:hover {
@@ -147,12 +147,12 @@ p {
 }
 
 .customerReviewCard {
-  background-image: url("https://placem.at/people");
+  background-image: url('https://placem.at/people');
   /* background-image: url("https://fillmurray.com/200/300"); */
 }
 
 .serviceCard {
-  background-image: url("https://placem.at/things");
+  background-image: url('https://placem.at/things');
   /* background-image: url("https://fillmurray.com"); */
 }
 /* https://fillmurray.com/ */
@@ -160,7 +160,7 @@ p {
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
-    url("https://placem.at/things");
+    url('https://placem.at/things');
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -342,6 +342,20 @@ section {
 .list-group-item:hover > a {
   color: #ef6c00;
 } */
+
+.contactModalBtn {
+  background-color: #db942b;
+  border-color: #db942b;
+}
+
+.contactModalBtn:hover {
+  background-color: #78909c;
+  border-color: #78909c;
+}
+
+.contactModalBtn a {
+  color: #fff;
+}
 
 @media screen and (max-width: 1207px) {
   /* Contact */
