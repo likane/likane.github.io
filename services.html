@@ -131,24 +131,214 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
               <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-user-check"></i> On Site Support</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-play-circle"></i> Custom Audio & Video</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-network-wired"></i> Network Best Practice & Security</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-server"></i> PC / Mac / Server Assistance</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-mobile"></i> All Inclusive Mobile Support</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#supportModal"><i class="fas fa-user-check"></i> On Site Support</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#avModal"><i class="fas fa-play-circle"></i> Custom Audio & Video</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#networkModal"><i class="fas fa-network-wired"></i> Network Best Practice & Security</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#assistanceModal"><i class="fas fa-server"></i> PC / Mac / Server Assistance</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#mobileModal"><i class="fas fa-mobile"></i> All Inclusive Mobile Support</li>
                 </ul>
           </div>
           <hr>
           <div class="col-sm-12 col-md-6">
               <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-rss"></i> Wifi Implementation</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-tools"></i> Cable Management & Maintenance</li>
-                  <li class="list-group-item list-group-item-action"><i class="fas fa-home"></i> Residential Automation</li>
-                  <li class="list-group-item list-group-item-action"><i class="far fa-eye"></i> Residential / Commercial Security Cameras</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#wifiModal"><i class="fas fa-rss"></i> Wifi Implementation</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#cableModal"><i class="fas fa-tools"></i> Cable Management & Maintenance</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#residentialModal"><i class="fas fa-home"></i> Residential Automation</li>
+                  <li class="list-group-item list-group-item-action" data-toggle="modal" data-target="#cameraModal"><i class="far fa-eye"></i> Residential / Commercial Security Cameras</li>
                   <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
                 </ul>
           </div>
         </div>
+
+<!-- supportModal -->
+<div class="modal fade" id="supportModal" tabindex="-1" role="dialog" aria-labelledby="supportModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- avModal -->
+<div class="modal fade" id="avModal" tabindex="-1" role="dialog" aria-labelledby="avModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="avModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- networkModal -->
+ <div class="modal fade" id="networkModal" tabindex="-1" role="dialog" aria-labelledby="networkModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="networkModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- assistanceModal -->
+   <div class="modal fade" id="assistanceModal" tabindex="-1" role="dialog" aria-labelledby="assistanceModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="assistanceModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                <!-- mobileModal -->
+                <div class="modal fade" id="mobileModal" tabindex="-1" role="dialog" aria-labelledby="mobileModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="mobileModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+<!-- wifiModal -->
+<div class="modal fade" id="wifiModal" tabindex="-1" role="dialog" aria-labelledby="wifiModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="wifiModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- cableModal -->
+<div class="modal fade" id="cableModal" tabindex="-1" role="dialog" aria-labelledby="cableModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cableModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- residentialModal -->
+<div class="modal fade" id="residentialModal" tabindex="-1" role="dialog" aria-labelledby="residentialModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="residentialModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- cameraModal -->
+<div class="modal fade" id="cameraModal" tabindex="-1" role="dialog" aria-labelledby="cameraModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cameraModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
    
     </section>
 
