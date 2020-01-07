@@ -138,7 +138,7 @@ p {
   margin-bottom: 4rem;
   margin-top: 4rem;
 }
-.card {
+.businessCards .card {
   text-align: center;
   margin: 0 auto;
   width: 90%;
@@ -146,28 +146,62 @@ p {
   min-height: 21rem;
 }
 
-.customerReviewCard {
-  background-image: url('https://placem.at/people');
+.businessCards .customerReviewCard {
+  /* background-image: url('https://placem.at/people'); */
   /* background-image: url("https://fillmurray.com/200/300"); */
+  background-image: url('images/cReviewIndex.jpg');
+  background-position: center;
 }
 
-.serviceCard {
-  background-image: url('https://placem.at/things');
+.businessCards .serviceCard {
+  /* background-image: url('https://placem.at/things'); */
   /* background-image: url("https://fillmurray.com"); */
+  background-image: url('images/getStartedIndex.png');
+  background-position: center;
+}
+
+.businessCards .infoCard {
+  /* background-image: url('https://placem.at/things'); */
+  /* background-image: url("https://fillmurray.com"); */
+  background-image: url('images/infoIndex.jpg');
+  background-position: center;
 }
 /* https://fillmurray.com/ */
 
-.card:hover {
+.businessCards .customerReviewCard:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
-    url('https://placem.at/things');
+    url('images/cReviewIndex.jpg');
+  /* background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)); */
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.card-title {
+.businessCards .serviceCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url('images/getStartedIndex.png');
+  /* background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)); */
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.businessCards .infoCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url('images/infoIndex.jpg');
+  /* background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)); */
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.businessCards .card-title {
   color: #fff;
   margin-top: 3rem;
   font-size: 2rem;
@@ -265,7 +299,7 @@ section {
 .aboutCards {
   text-align: center;
   background: #78909c;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   min-height: 10rem;
 }
 
@@ -277,10 +311,24 @@ section {
 
 .aboutBio {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 .aboutBio h5 {
+  color: #2d6c97;
+  /* color: #78909c; */
+}
+
+.aboutEmployee {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.aboutEmployee > .card {
+  border: none;
+}
+
+.aboutEmployee p {
   color: #2d6c97;
 }
 
@@ -311,7 +359,7 @@ section {
 }
 
 .contactCard a:hover {
-  color: #db942b;
+  color: #ef6c00;
 }
 
 .contactPhoneNumber {
@@ -319,7 +367,7 @@ section {
 }
 
 .contactPhoneNumber a:hover {
-  color: #db942b;
+  color: #ef6c00;
 }
 
 .socialMediaInfoIcons {
@@ -344,8 +392,8 @@ section {
 } */
 
 .contactModalBtn {
-  background-color: #db942b;
-  border-color: #db942b;
+  background-color: #ef6c00;
+  border-color: #ef6c00;
 }
 
 .contactModalBtn:hover {
@@ -393,6 +441,17 @@ section {
   .contactRowBottom {
     margin-bottom: 2rem;
   }
+
+  /*About*/
+  /* .aboutEmployee .employeeDescription {
+    max-height: 30px;
+  } */
+}
+
+@media screen and (max-width: 795px) {
+  .aboutEmployee .employeeDescription {
+    display: none;
+  }
 }
 /* ipad 768 */
 @media screen and (max-width: 768px) {
@@ -435,6 +494,11 @@ section {
   .aboutQuote h2 {
     font-size: 2rem;
   }
+
+  .aboutEmployee .card-title {
+    font-size: 0.8rem;
+  }
+
   /* Services */
   .list-group-item {
     font-size: 0.8rem;
@@ -447,6 +511,13 @@ section {
   /* Contact */
   .contactRowBottom {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*About*/
+  .aboutEmployee {
+    display: none;
   }
 }
 
