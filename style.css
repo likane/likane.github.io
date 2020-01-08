@@ -117,6 +117,10 @@ p {
   color: #fff;
 }
 
+.indexServicesBtn:visited {
+  color: #fff;
+}
+
 .spashInfoButtons:hover > .indexServicesBtn {
   color: #2d6c97 !important;
 }
@@ -372,6 +376,14 @@ section {
 
 .socialMediaInfoIcons {
   font-size: 3rem;
+}
+
+#customerReviewModal h3 {
+  color: #2d6c97;
+}
+
+#customerReviewModal p {
+  color: #78909c;
 }
 
 /* SERVICES */

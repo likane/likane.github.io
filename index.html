@@ -151,7 +151,7 @@
           <div class="card customerReviewCard" >
             <div class="card-body">
                <h4 class="card-title">Customer Reviews</h4> 
-               <h6><a href="reviews.html"><i class="far fa-comment"></i></a></h6>
+               <h6><a data-toggle="modal" data-target="#customerReviewModal">><i class="far fa-comment"></i></a></h6>
             </div>
           </div></div>
         <div class="col-sm-12 col-md-4">
@@ -193,6 +193,34 @@
           <li><i class="fab fa-chromecast"></i></li>
         </ul></div>
       </div>
+
+      <!-- customerReviewModal -->
+<div class="modal fade" id="customerReviewModal" tabindex="-1" role="dialog" aria-labelledby="customerReviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customerReviewModalLabel">Customer Reviews</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3>Customer Name ~</h3>
+          <p>Disrupt hoodie locavore sustainable chillwave yr street art lo-fi.</p> 
+          <hr/>
+          <h3>Customer Name ~</h3>
+          <p>YOLO enamel pin lo-fi hoodie skateboard. Coloring book air plant gluten-free cardigan keffiyeh.</p>
+          <hr/>
+          <h3>Customer Name ~</h3> 
+          <p>Chambray cold-pressed whatever try-hard palo santo, keytar bushwick tacos actually.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary contactModalBtn" ><a href="contact.html" target="_blank">Contact Us</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
     </section>
 
     <!-- footer -->
